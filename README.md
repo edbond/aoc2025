@@ -10,6 +10,7 @@ Advent of Code is an annual set of Christmas-themed programming challenges that 
 
 - `src/` - Solution implementations
   - `day1.rs` - Day 1: Secret Entrance
+  - `day2.rs` - Day 2: Invalid ID Detection
   - `lib.rs` - Library setup with aoc-runner
 - `input/` - Puzzle inputs (not committed to git)
 
@@ -34,11 +35,13 @@ cargo test
 
 # Run tests for a specific day
 cargo test day1
+cargo test day2
 ```
 
 ## Progress
 
 - [x] Day 1: Secret Entrance ⭐⭐
+- [x] Day 2: Invalid ID Detection ⭐⭐
 
 ## Tools
 
