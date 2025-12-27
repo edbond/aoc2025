@@ -47,7 +47,7 @@ fn max_rec_helper(
 
     // find leftmost maximum digit
     let end_idx = (input.len()) as usize - remaining as usize;
-    let (i, digit) = input[start_idx..=end_idx]
+    let (i, _digit) = input[start_idx..=end_idx]
         .iter()
         .enumerate()
         .rev()
